@@ -1,0 +1,89 @@
+Trivia game loads a page that reads "play"
+User presses the play button
+Play button changes the html/css
+Play button starts timer clock running
+- function nextRound();
+
+
+For loop
+
+PAGE 2
+Display a timer for 30 seconds
+Display a trivia question from the array
+Display four choice buttons corresponding to the questionAnswers from the array
+    -add hover feature to the buttons
+
+If the timer hits 0, tell the player "TIME'S UP" and then hilight the right answer from the array
+    -perhaps do this by changing the CSS to highlight the answer and change the div to its designated class
+    Set a new 6 second timer for buffer
+    Increase "WRONG" counter
+
+If the player is wrong, tell the player they chose wrong and then hilight the right answer from the array
+    Set a new 6 second timer for buffer
+    Increase "WRONG" counter
+
+If the plaer is right, change the color of the answer div and tell the player "CORRECT!"
+    Set a new 6 second timer for buffer
+    Increase "CORRECT" counter
+
+
+Use For loop to repeat this 10x, for each question in the array;
+
+
+LAST page
+
+Pause the timer OR set a new buffer timer
+Display GAME OVER
+Keep displaying the number of "RIGHT" answers
+Keep displaying the number of "WRONG" answers
+Add "restart" button
+
+
+function clearGame();
+When timer runs out, set "answerRight" to false
+When timer runs out, set answerRight" to true
+Wait 3 seconds
+Set <div1> value to "blahblah"
+Set <div2> value to "blahblah"
+$(".button").removeClass("Round1 question")
+$(".timer").html()
+OR try javascript .clear to clear the page
+
+
+
+function clearGame();
+
+
+06-Timeout
+11-Slideshow
+16-Fizzbuzz
+
+
+Create an array
+Each question is an object
+It has 4 answers as properties
+On click, set answer 1 to TRUE
+    If that matches the property in the array, then proceed to "WIN"
+
+var game = [
+    {
+    question = "Which is not RGB??"
+    answer: [
+        {a1: "red", choice: false},
+        {a2: "green", choice: false},
+        {a3: "blue, choice: false},
+        {a4: "cyan", choice: true}
+    ]
+    }
+    question = "Which was not a Star Wars villain?"
+    answer: [
+        {a1: "Darth Vader", choice: false},
+        a2: "Sebulba", choice: false},
+        a3: "Jar Jar", choice: true},
+        a4: "Palpatine", choice: false},
+    ]
+    }
+
+    ]
+
+

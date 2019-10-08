@@ -1,0 +1,46 @@
+html {
+  height: 100%;
+}
+
+body,
+html {
+  box-sizing: border-box;
+}
+
+img {
+  position: center;
+  padding-bottom: 40px;
+  height: 350px;
+}
+
+h1 {
+  position: center;
+}
+
+#timer {
+  position: center;
+  font-size: 24pt;
+  color: rgb(153, 31, 31)
+}
+
+.answer {
+  position: center;
+  font-size: 24pt;
+}
+
+.questionDisplay {
+  font-size: 18pt;
+}
+
+.startGame {
+  background-color: rgb(153, 31, 31);
+  text-align: center;
+}
+.questionSpacing {
+  line-height: 50px;
+}
+.questionSpacing:hover {
+  color:rgb(153, 31, 31);
+  cursor: pointer;
+}
+
